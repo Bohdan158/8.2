@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Ферзів</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Задача про 8 ферзів</h1>
+        <p>Задача про вісім ферзів полягає в такому розміщенні восьми ферзів на шахівниці, що жодна з них не ставить під удар один одного. Тобто, вони не повинні стояти в одній вертикалі, горизонталі чи діагоналі.</p>
+        <p>Алгоритми:</p>
+        <ul>
+            <li><strong>Бектрекінг:</strong> Перебір усіх можливих розташувань з поверненням.</li>
+            <li><strong>A*:</strong> Інформативний пошук із заданою евристичною функцією.</li>
+            <li><strong>LDFS:</strong> Пошук у глибину з обмеженням глибини.</li>
+            <li><strong>F1:</strong> Кількість пар ферзів, які б’ють один одного, з урахуванням видимості.</li>
+        </ul>
+    </header>
+
+    <main>
+        <div id="chessboard-container"></div>
+        <button id="solve-button">Розв’язати задачу</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
